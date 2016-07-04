@@ -1,0 +1,22 @@
+{
+  "name": "contrib-subgen-yoburger-bbq",
+  "version": "0.0.1",
+  "description": "Reference Implementation for a generator-subgenext Subgen",
+  "main": "./generators/bbq/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sthzg <sthzgvie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "files": [
+    "generators/bbq"
+  ],
+  "scripts": {
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+  }
+}
