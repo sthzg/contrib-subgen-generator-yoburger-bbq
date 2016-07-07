@@ -13,6 +13,9 @@
   "dependencies": {
     "yeoman-generator": "^0.23.4"
   },
+  "peerDependencies": {
+    "generator-yoburger": ">0.0.0"
+  },
   "files": [
     "generators/bbq"
   ]
