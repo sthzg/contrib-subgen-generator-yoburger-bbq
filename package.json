@@ -1,6 +1,6 @@
 {
   "name": "contrib-subgen-yoburger-bbq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Reference Implementation for a generator-subgenext Subgen",
   "main": "./generators/bbq/index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "yeoman-generator": "^0.23.4"
+  },
+  "peerDependencies": {
+    "generator-yoburger": ">0.0.0"
   },
   "files": [
     "generators/bbq"
